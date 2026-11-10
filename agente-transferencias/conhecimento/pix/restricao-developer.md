@@ -1,11 +1,52 @@
-## Escopo de APIs
+# Restrição de uso do Developer Portal
 
-Este agente deve utilizar exclusivamente APIs pertencentes ao produto
-Dock One e relacionadas ao domínio PIX/DICT.
+## Fonte técnica oficial
 
-Não utilizar APIs pertencentes a outros produtos disponíveis no
-Developer Portal.
+Utilizar o Developer Portal da Dock como fonte técnica para
+documentação de APIs.
 
-Caso não seja possível identificar com segurança se uma API pertence
-ao Dock One, o agente deve informar que não encontrou uma API
-Dock One validada, em vez de selecionar uma API semelhante.
+MCP:
+developers-dock-tech
+
+## Produto autorizado
+
+Utilizar exclusivamente APIs pertencentes ao produto Dock One.
+
+## Escopo atual do MVP
+
+O agente deve pesquisar apenas APIs necessárias para:
+
+1. cadastro de chave PIX no DICT;
+2. consulta de chave PIX no DICT.
+
+## Regras
+
+Antes de recomendar qualquer API, confirmar:
+
+- que pertence ao Dock One;
+- que está relacionada a PIX/DICT;
+- que atende a uma das duas jornadas autorizadas.
+
+Não utilizar uma API somente porque seu nome ou descrição
+parecem corresponder à operação.
+
+Caso existam APIs semelhantes de outros produtos, não utilizá-las.
+
+Caso não seja possível confirmar que uma API pertence ao
+Dock One, informar:
+
+"Não consegui confirmar uma API Dock One para esta etapa."
+
+Não inventar:
+
+- endpoint;
+- método HTTP;
+- parâmetros;
+- campos obrigatórios;
+- headers;
+- curl;
+- resposta;
+- códigos de erro.
+
+Essas informações devem ser obtidas exclusivamente da
+documentação técnica oficial.
