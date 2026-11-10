@@ -1,0 +1,13 @@
+O teste deve contemplar duas perguntas:
+Como cadastrar uma chave dict?
+Como consultar uma chave dict?
+
+O Agente deve responder para ambas as perguntas os pontos:
+o que significa cadastrar a chave;
+pré-requisitos;
+qual API do Dock One é utilizada;
+quais campos são necessários;
+exemplo de curl;
+resultado esperado;
+regras relevantes encontradas no Confluence;
+fontes usadas.
